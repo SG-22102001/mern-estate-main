@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 import { Swiper, SwiperSlide } from "swiper/react"
 import 'swiper/css/bundle'
 import { Navigation} from 'swiper/modules'
 import SwiperCore from 'swiper'
+import ListingItem from "../components/ListingItem"
 
 export default function Home() {
   const [offerListings, setOfferListings] = useState([])
