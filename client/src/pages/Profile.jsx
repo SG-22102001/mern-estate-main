@@ -226,7 +226,7 @@ const handleFileUpload =  (file) => {
              </Link>
  
              <div className='flex flex-col items-center'>
-               <button  onClick={handleListingDelete(listing._id)} className='text-red-700 uppercase'>
+               <button  onClick={() => handleListingDelete(listing._id)} className='text-red-700 uppercase'>
                  Delete
                </button>
                <Link to={`/update-listing/${listing._id}`}>
