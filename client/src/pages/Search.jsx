@@ -198,6 +198,12 @@ export default function Search() {
                         <option value='regularPrice_asc'>Price low to high</option>
                         <option value='createdAt_desc'>Latest</option>
                         <option value='createdAt_asc'>Oldest</option>
+                        <option value="bedrooms_desc">
+                            Number of bedrooms high to low
+                        </option>
+                        <option value="bedrooms_asc">
+                            Number of bedrooms low to high
+                        </option>
                     </select>
                 </div>
                 <button className="bg-slate-700 text-white
